@@ -13,3 +13,8 @@ ul {
 img {
   float: right;
 }
+
+.team-mem {
+  display: flex;
+  flex-direction: row;
+}

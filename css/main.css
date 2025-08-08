@@ -27,6 +27,23 @@ img {
 .nav-menu {
   display: flex;
   flex-direction: row;
+  flex: auto;
   text-align: left;
   justify-content: space-between;
+}
+
+.nav-item {
+  display: inline;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex: auto;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.footer-item {
+  display: inline;
 }

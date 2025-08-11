@@ -35,6 +35,7 @@ header {
 
 main {
     grid-area: main;
+    padding: 0 8%;
     max-width: 1200px;
 }
 
@@ -48,7 +49,7 @@ img {
 
 .products-grid {
     display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-columns: repeat(6, 1fr);
     grid-template-rows: auto auto auto;
     gap: 8px;
 }
@@ -56,11 +57,13 @@ img {
 .products {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    flex-direction: row;
 }
 
 .product-id {
     text-align: center;
+    grid-column-start: 5;
     width: 15%;
     min-width: 200px;
     padding: 2em 2em;

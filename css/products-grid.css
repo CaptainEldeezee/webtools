@@ -41,10 +41,26 @@ main {
 
 footer {
     grid-area: footer;
+    display: flex;
+    flex: auto;
+    justify-content: space-evenly;
+    padding: 0px 20px;
+    font-style: italic;
+    background-color: rgb(200, 233, 254);
+    border: rgb(144, 169, 185);
+    border-top-style: dashed;
+}
+
+.footer-item {
+    display: inline;
 }
 
 img {
     max-width: 100%;
+}
+
+figcaption {
+    font-size: 14px;
 }
 
 .products-grid {
@@ -64,10 +80,10 @@ img {
 .product-id {
     text-align: center;
     grid-column-start: 5;
-    width: 15%;
+    width: 25%;
     min-width: 200px;
-    padding: 2em 2em;
-    border-radius: 5px;
+    padding: 2%;
+    border-radius: 8px;
     border: rgb(224, 224, 224) solid;
     background-color: #f9f9f9;
     box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.4);
